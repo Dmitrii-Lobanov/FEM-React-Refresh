@@ -20,3 +20,6 @@ Run script by `npx serve`
 
 Then add `<script src="./src/App.js"></script>` to the body
 
+Add `Pizza` component and render 6 pizzas in `App` component
+
+Add props to `Pizza` component
