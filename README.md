@@ -47,3 +47,22 @@ Install React and ReactDOM
 
 `npm install react@18.3.1 react-dom@18.3.1`
 
+## JSX
+
+Create `Pizza.jsx` file
+
+Add JSX to `Pizza` component
+
+Add `className` to `Pizza` component
+
+Configure ESLint for JSX
+
+`npm i -D eslint-plugin-react`
+
+Adjust ESLint config to disable prop-types and unescaped entities
+
+Setup API Server by adding `api` folder with `server.js` file
+
+Configure Vite proxy to use API server
+
+Run `npm run dev` in both `api` and root folders
