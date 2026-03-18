@@ -66,3 +66,12 @@ Setup API Server by adding `api` folder with `server.js` file
 Configure Vite proxy to use API server
 
 Run `npm run dev` in both `api` and root folders
+
+## React Hooks
+
+Create an Order component to use state for pizza type and size
+
+Add useEffect to fetch pizza types from API
+
+Add a custom hook by extracting the logic for fetching pizza of the day
+
