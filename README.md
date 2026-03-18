@@ -2,6 +2,11 @@
 
 This is a repository to implement various react tools and update my skills lest to miss something useful and important
 
+To run this project you need to run two commands:
+
+in `api` folder: `npm run dev`
+in root folder: `npm run dev`
+
 ## Build a React without a Build step
 
 Create `padre-ginos` folder
@@ -75,3 +80,10 @@ Add useEffect to fetch pizza types from API
 
 Add a custom hook by extracting the logic for fetching pizza of the day
 
+## Tanstack Router
+
+Install Tanstack Router `npm i @tanstack/react-router`
+
+Install Tanstack Router Devtools `npm i -D @tanstack/router-plugin @tanstack/router-devtools`
+
+Add Tanstack Router to the project
