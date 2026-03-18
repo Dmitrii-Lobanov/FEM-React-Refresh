@@ -100,3 +100,4 @@ Add React Query Devtools to the root component
 
 Add QueryClientProvider to the root component
 
+Add an API call to fetch past orders
