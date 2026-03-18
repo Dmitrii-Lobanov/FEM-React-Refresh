@@ -101,6 +101,7 @@ server.get("/api/pizza-of-the-day", async function getPizzaOfTheDay(req, res) {
 });
 
 server.get("/api/orders", async function getOrders(req, res) {
+  // eslint-disable-next-line no-unused-vars
   const id = req.query.id;
   const orders = await db.all("SELECT order_id, date, time FROM orders");
 
@@ -210,7 +211,7 @@ server.post("/api/order", async function createOrder(req, res) {
 });
 
 server.get("/api/past-orders", async function getPastOrders(req, res) {
-  await new Promise((resolve) => setTimeout(resolve, 5000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   try {
     const page = parseInt(req.query.page, 10) || 1;
     const limit = 20;

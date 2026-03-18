@@ -87,3 +87,16 @@ Install Tanstack Router `npm i @tanstack/react-router`
 Install Tanstack Router Devtools `npm i -D @tanstack/router-plugin @tanstack/router-devtools`
 
 Add Tanstack Router to the project
+
+## Tanstack Query
+
+Install Tanstack Query `npm i @tanstack/react-query`
+
+Install Tanstack Query Devtools `npm i -D @tanstack/react-query-devtools @tanstack/eslint-plugin-query`
+
+Add ESLint plugin for Tanstack Query
+
+Add React Query Devtools to the root component
+
+Add QueryClientProvider to the root component
+
