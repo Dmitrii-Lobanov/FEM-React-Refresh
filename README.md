@@ -101,3 +101,13 @@ Add React Query Devtools to the root component
 Add QueryClientProvider to the root component
 
 Add an API call to fetch past orders
+
+## Modal
+
+Create a Modal component to display past orders
+
+Add a custom hook to fetch past orders
+
+## Error Boundary
+
+Add ErrorBoundary CLASS component to the project
