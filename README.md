@@ -118,3 +118,44 @@ Create a API request to send contact form data
 
 Add a form to contact page
 
+## Testing
+
+Install Vitest `npm i -D vitest @testing-library/react happy-dom`
+
+Configure Vitest
+
+Add tests for Pizza component
+
+Install vitest-fetch-mock `npm i -D vitest-fetch-mock`
+
+Add tests for Contact component
+
+Add tests for custom hooks
+
+Add snapshot tests
+
+Add test coverage
+
+`npm i -D @vitest/coverage-v8`
+
+Add coverage to `vite.config.js`
+
+Add `coverage` script to `package.json`
+
+Install Vitest UI
+
+`npm i -D @vitest/ui`
+
+Add `test:ui` script to `package.json`
+
+Add browser tests
+
+`npm i -D @vitest/browser playwright vitest-browser-react`
+
+Add `vitest.config.js` file
+
+Add browser tests for Pizza component
+
+Install Playwright `npx playwright install`
+
+Add 
