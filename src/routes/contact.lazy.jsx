@@ -7,7 +7,7 @@ export const Route = createLazyFileRoute("/contact")({
 });
 
 function ContactRoute() {
-  const {isSubmitting, mutate} = useMutation({
+  const {isSuccess, mutate} = useMutation({
     mutationFn: function (e) {
       e.preventDefault();
       const formData = new FormData(e.target);
@@ -22,7 +22,7 @@ function ContactRoute() {
   return (
     <div className="contact">
       <h2>Contact</h2>
-      {isSubmitting ? (
+      {isSuccess ? (
         <h3>Submitted!</h3>
       ) : (
         <form onSubmit={mutate}>
