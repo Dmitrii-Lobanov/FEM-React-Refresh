@@ -158,4 +158,4 @@ Add browser tests for Pizza component
 
 Install Playwright `npx playwright install`
 
-Add 
+Add Istanbul coverage
